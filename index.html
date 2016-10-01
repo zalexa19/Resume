@@ -8,6 +8,8 @@
         <link href="https://fonts.googleapis.com/css?family=Prompt:200,300,400,600,700,900" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Mobile Layout-->
+
     </head>
     <body>
     <!--HEADER-->
@@ -15,6 +17,7 @@
             <div class="headerContainer">
 
                 <nav>
+                    <a class="burger-nav"></a>
                     <ul>
                         <li> <a href="#AboutMe">About</a></li>
                         <li> <a href="#Experience">Experience</a></li>
@@ -35,16 +38,21 @@
                <div>
                      <img class="profile-Photo" src="img/Alex-Photo1.jpg">
                </div>
-                <div class="aboutMeContent">
-                     <p>Hi! <br> My Name is Alex and I like coding. <br> I live in Amsterdam, and teach myself cool stuff like building and designing websites,
-                         all while being a student at the Open University of Israel.
-                         Currently working on my B.A in Computer Science - Systems & Applications and Psychology.
-                         I spend my time learning to code in <a href="https://teamtreehouse.com/" target=”_blank”>TreeHouse </a> and exploring the City.
-                         <br>
-                         I'd love to join a team as a developer.
+                <div class="aboutMeConten center">
+                    <p>
+                        My Name is Alex Zablotsky - an aspiring web developer from Amsterdam. </p>
+                    <p>
+                        I have a 4 years of experience as a QA Engineer in an international financial company and
+                        I have picked up learning Web development because I find it creative and interesting.
+                        <br> I’m learning web development online, using
+                        <a href="https://teamtreehouse.com/"> TreeHouse</a>, and practicing by working on mini-projects. </p>
 
+                    <p>
+                        I’m a self-learner, professional,  well-organized and very nice in general.
 
-                     </p>
+                        I’m a student at the Open University of Israel, working on my B.A in in Computer Science - Systems & Applications and Psychology so I am also familiar with Java.
+
+                    </p>
                 </div>
             </div>
             <a name="Experience"></a>
@@ -53,36 +61,33 @@
 
             <div class="aboutMeContent">
                 <h3 class="contentHeader">My Experience</h3>
-                <p> For The last 4 years I've been working as a QA Engineer at a Financial Company, which develops a banking product</p>
-                <p><u>I have experience with the following platforms:</u></p>
+                <p><u><b>Web Development</b></u></p>
+                <p><b><a href="http://colorizebot.com/">ColorizeBot</a></b><br>
+                This bot, knows how to color B&W photos by using a sophisticated algorithm. <br>
+                    I helped with designing the front-end client, using HTML and CSS.
+                </p>
 
+                <p><b><a href="http:/http://alexaz.me/">alexaz.me</a></b><br>
+                Designed and built this page from scratch, using responsive design.
 
+                </p>
+
+                <p>More Projects to come!</p>
+
+                <p><u><b>QA Engineering</b></u></p>
+                <p>
+
+                    Worked for 4 years at D+H (former FUNDtech) on a sophisticated banking software.<br>
+                    while in this position, I’ve acquired the following skills:
+
+                </p>
                 <ul>
-                    <li>Windows XP/7/8/10</li>
-                    <li> Unix/linux</li>
-                    <li> Mac OSX.</li>
-                    <li> Android</li>
-                    <li> iOS.</li>
+                    <li>Writing and executing Manual tests </li>
+                    <li>Executing complex SQL queries (joins, group by etc.) in Oracle Database environemt.</li>
+                    <li>Defect Life Cycle: Identifying and raising new defects, verification of fixed defects, triage of defects raised by customer.</li>
+                    <li>Working in collaboration with the following teams - developers, system architects, business analysts, DBA, CM and other QA.</li>
+                    <li>Focal point of business knowledge
 
-                </ul>
-
-                <p><u>I'm Also familiar with the following languages:</u></p>
-                <ul>
-                    <li>Java </li>
-                    <li> SQL</li>
-                    <li>Oracle PL/SQL</li>
-                    <li> PostgreSQL</li>
-                </ul>
-
-                <p><u>Also have the following QA skills:</u></p>
-                <ul>
-                    <li>Test planning</li>
-                    <li>Test Execution</li>
-                    <li>Familiar with software development and software testing life cycles </li>
-                    <li>Write easy-to-follow defect descriptions</li>
-                    <li> Defect verification</li>
-                    <li> Customer defects triage</li>
-                    <li> Love learning new tools and technologies</li>
                 </ul>
 
                 <a href="files/Alex%20Zablotsky%20-%20C.V.docx">
@@ -92,12 +97,13 @@
 
             </div>
             <a name="Social"></a>
-            <div class="aboutMeContent">
+            <div class="aboutMeContent contactme">
                 <h3 class="contentHeader"> Contact me!</h3>
-                <p>You can contact me using my social media, or my email: zalexa19@gmail.com</p>
+                <p class="center">You can contact me using my social media</p>
                 <div class="icons">
-                    <a href="https://www.facebook.com/Alexa.z" class="socialMedia"> <img src="img/facebook.png" alt"face lolg" class="social"> </a>
-                    <a href="https://il.linkedin.com/in/alex-zablotsky-93235892" class="socialMedia"><img src="img/linkedin.png" alt"face lolg" class="social"> </a>
+                    <a href="mailto:zalexa19@gmail.com" class="socialMedia"><img src="img/gmail2.png" alt="Gmail icon" class="social"></a>
+                    <a href="https://il.linkedin.com/in/alex-zablotsky-93235892" class="socialMedia"><img src="img/linkedin2.png" alt="LinkedIn icon" class="social"> </a>
+                    <a href="https://github.com/zalexa19" class="socialMedia"><img src="img/github2.png" alt="Github icon" class="social"></a>
                 </div>
 
             </div>
@@ -114,5 +120,8 @@
 
         </footer>
     </body>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="scripts/main.js"></script>
+
 </html>
 
